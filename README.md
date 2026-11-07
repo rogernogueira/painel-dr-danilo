@@ -4,6 +4,7 @@ Painel interativo dos votos para deputado estadual no Tocantins, comparando o 1�
 
 ## Acessar
 
+- Painel publicado via GitHub Pages: https://rogernogueira.github.io/painel-dr-danilo/
 - Abra `dados/paineis/dr-danilo/painel-local.html` para a versão autocontida.
 - Para a versão em arquivos, sirva `dados/paineis/dr-danilo/` por HTTP; não abra `index.html` diretamente via `file://`.
 

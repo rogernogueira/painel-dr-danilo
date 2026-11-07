@@ -6,7 +6,7 @@
   "description": "Painel eleitoral do Dr. Danilo Alencar no Tocantins (2022 × 2026)",
   "scripts": {
     "dev": "VITE_CANDIDATO='DR DANILO ALENCAR' VITE_CARGO=estadual vite",
-    "build": "VITE_CANDIDATO='DR DANILO ALENCAR' VITE_CARGO=estadual vite build && UF=dr-danilo TITULO='Dr. Danilo Alencar, 2022 e 2026' node scripts/montar.mjs"
+    "build": "VITE_CANDIDATO='DR DANILO ALENCAR' VITE_CARGO=estadual vite build && UF=dr-danilo TITULO='Dr. Danilo Alencar, 2022 e 2026' node scripts/montar.mjs && node scripts/publish-pages.mjs"
   },
   "dependencies": {
     "@duckdb/duckdb-wasm": "1.32.0",
