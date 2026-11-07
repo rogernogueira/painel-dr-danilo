@@ -26,7 +26,7 @@ São totais registrados no pacote dos BUs usado pelo painel; não devem ser inte
 
 ## Desenvolvimento
 
-Requisitos: Node.js/npm e `uv` com o ambiente do repositório `eleicoes` (pandas e pyarrow).
+Requisitos: Node.js e npm. O pacote de dados já está incluído neste repositório.
 
 ```bash
 cd painel
